@@ -174,6 +174,14 @@
 				<artifactId>spotbugs-maven-plugin</artifactId>
 				<version>3.1.9</version>
 			</plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <!-- Since I use Travis CI I do not have to put my Coveralls token here. -->
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 	<reporting>
